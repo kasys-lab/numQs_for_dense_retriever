@@ -1,0 +1,25 @@
+[project]
+name = "numqs-experimentals"
+version = "0.1.0"
+description = "Investigating the Performance of Dense Retrievers for Queries with Numerical Conditions"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "datasets>=3.0.2",
+    "faker>=30.8.1",
+    "hydra-core>=1.3.2",
+    "names-dataset>=3.1.0",
+    "numpy==1.26.4",
+    "openai>=1.52.2",
+    "python-dotenv>=1.0.1",
+    "python-terrier>=0.11.0",
+    "ragatouille>=0.0.8.post4",
+    "tevatron>=0.1.0",
+    "torch>=2.5.0",
+    "transformers>=4.46.0",
+]
+
+[tool.uv]
+dev-dependencies = [
+    "ruff>=0.7.1",
+]
